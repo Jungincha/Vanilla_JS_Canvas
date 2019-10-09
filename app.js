@@ -20,11 +20,11 @@ ctx.fillStyle = INITIAL_COLOR;
 
 let painting = false;
 
-function stopPainting(event) {
+function stopPainting() {
     painting = false;
 }
 
-function startPainting(event) {
+function startPainting() {
     painting = true;
 }
 
